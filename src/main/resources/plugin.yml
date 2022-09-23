@@ -1,0 +1,21 @@
+name: EventTools
+version: '${project.version}'
+main: mst.eventtools.EventTools
+api-version: 1.19
+authors: [ Zako ]
+
+commands:
+  effectNear:
+      name: effectNear;
+      usage: /effectnear <радиус> <эффект/id> <длительность> <сила>
+      aliases: ["effectn"]
+      permission: eventtolls.command.effectnear
+      description: "Выдает эффект игрокам в радиусе"
+      permission-message: "Недостаточно прав для испоьзования этой команды"
+  clearNear:
+      name: clearNear;
+      usage: /clearNear <радиус>
+      aliases: ["clearn"]
+      permission: eventtolls.command.clearNear
+      description: "Очистка инвентаря в радиусе"
+      permission-message: "Недостаточно прав для испоьзования этой команды"

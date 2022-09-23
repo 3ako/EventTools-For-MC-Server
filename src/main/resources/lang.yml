@@ -1,0 +1,8 @@
+onlyPlayerUse: "&cЭту команду может использовать только живой игрок."
+
+effectNearSuccess: "&fУспешно выдан эффект &9%effect%&f всем игрокам в радиусе &9%radius%&f блоков."
+effectNearClear: "&fАдминистратор &9%admin%&f очистил Ваши эффекты."
+effectNearGive: "&fАдминистратор &9%admin%&f выдал Вам эффект &9%effect%."
+
+clearNearSuccess: "&fУспешно очищены все инвентари в радиусе &9%radius%"
+clearNearClear: "&fАдминистратор &9%admin%&9 очистил Ваш инвентарь."
